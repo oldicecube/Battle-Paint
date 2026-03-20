@@ -1,0 +1,1 @@
+execute as @a[scores={battlepaint_help=1}] run function battlepaint:help

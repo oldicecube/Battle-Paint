@@ -1,0 +1,9 @@
+execute unless entity @a[tag=team_red] as @p[x=4.5,y=68,z=3.5,distance=..0.5] if score #paint_prepare paint_main matches -3 positioned -13 ~ 36 run function battlepaint:join/team_red
+execute unless entity @a[tag=team_white] as @p[x=4.5,y=68,z=4.5,distance=..0.5] if score #paint_prepare paint_main matches -3 positioned -33 ~ 22 run function battlepaint:join/team_white
+execute unless entity @a[tag=team_orange] as @p[x=4.5,y=68,z=5.5,distance=..0.5] if score #paint_prepare paint_main matches -3 positioned -41 ~ 0 run function battlepaint:join/team_orange
+execute unless entity @a[tag=team_yellow] as @p[x=4.5,y=68,z=6.5,distance=..0.5] if score #paint_prepare paint_main matches -3 positioned -33 ~ -30 run function battlepaint:join/team_yellow
+execute unless entity @a[tag=team_lime] as @p[x=4.5,y=68,z=7.5,distance=..0.5] if score #paint_prepare paint_main matches -3 positioned -11 ~ -42 run function battlepaint:join/team_lime
+execute unless entity @a[tag=team_light_blue] as @p[x=4.5,y=68,z=8.5,distance=..0.5] if score #paint_prepare paint_main matches -3 positioned 12 ~ -41 run function battlepaint:join/team_light_blue
+execute unless entity @a[tag=team_pink] as @p[x=4.5,y=68,z=9.5,distance=..0.5] if score #paint_prepare paint_main matches -3 positioned 29 ~ -31 run function battlepaint:join/team_pink
+execute unless entity @a[tag=team_purple] as @p[x=4.5,y=68,z=10.5,distance=..0.5] if score #paint_prepare paint_main matches -3 positioned 41 ~ 0 run function battlepaint:join/team_purple
+execute unless entity @a[tag=team_green] as @p[x=4.5,y=68,z=11.5,distance=..0.5] if score #paint_prepare paint_main matches -3 positioned 19 ~ 36 run function battlepaint:join/team_green

@@ -1,0 +1,1 @@
+execute in battlepaint:battlepaint run function battlepaint:init
